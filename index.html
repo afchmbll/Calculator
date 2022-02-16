@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="calculadora.css">
+    </head>
+    <div id="base">
+        <div id="container"><div id="ecra"> Type Something... </div></div>
+        <div id="teclas">
+            <div onclick="type(id)" class="tecla" id="teclaEXP">EXP</div>
+            <div onclick="type(id)" class="tecla" id="tecla(">(</div>
+            <div onclick="type(id)" class="tecla" id="tecla)">)</div>
+            <div onclick="wipe()" class="tecla" id="teclaCE">CE</div>
+            <div onclick="type(id)" class="tecla" id="tecla7">7</div>
+            <div onclick="type(id)" class="tecla" id="tecla8">8</div>
+            <div onclick="type(id)" class="tecla" id="tecla9">9</div>
+            <div onclick="type(id)" class="tecla" id="teclaDiv">/</div>
+            <div onclick="type(id)" class="tecla" id="tecla4">4</div>
+            <div onclick="type(id)" class="tecla" id="tecla5">5</div>
+            <div onclick="type(id)" class="tecla" id="tecla6">6</div>
+            <div onclick="type(id)" class="tecla" id="tecla*">*</div>
+            <div onclick="type(id)" class="tecla" id="tecla1">1</div>
+            <div onclick="type(id)" class="tecla" id="tecla2">2</div>
+            <div onclick="type(id)" class="tecla" id="tecla3">3</div>
+            <div onclick="type(id)" class="tecla" id="tecla-">-</div>
+            <div onclick="type(id)" class="tecla" id="tecla0">0</div>
+            <div onclick="type(id)" class="tecla" id="tecla.">.</div>
+            <div onclick="total()" class="tecla" id="tecla=">=</div>
+            <div onclick="type(id)" class="tecla" id="tecla+">+</div>
+        </div>
+    </div>
+    <div id="lista"></div>
+    <script src="calculadora.js"></script>
+</html>

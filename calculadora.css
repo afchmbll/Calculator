@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+body{
+    background:#23f1d6;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#base{
+    height: 42em;
+    width:30em;
+    background:#383b3b;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    transform:translateY(1em);
+    border-radius:10px;
+}
+
+#container{
+    width:26em;
+    height:8em;
+    background:#e5eeeb;
+    border-radius:20px;
+    font-family: Orbitron;
+    padding-right:0.5em;
+}
+
+#ecra{
+    transform:translateY(1.3em);
+    font-size:2.1em;
+    text-align:right;
+    overflow:hidden;
+    
+}
+
+#teclas{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.tecla{
+    height:2.2em;
+    width:2.2em;
+    background:#383b3b;
+    color:white;
+    text-align:center;
+    vertical-align:middle;
+    line-height:2.2em;
+    font-size: 2.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid black;
+    transition:all 0.05s;
+}
+
+.tecla:hover{
+    cursor:pointer;
+}
+
+.tecla:active{
+    background:#4f5353
+}
