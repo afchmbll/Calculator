@@ -2,7 +2,7 @@ let x =[]
 let empty = true;
 
 
-function change(){ /** a funcionar */
+function change(){
  document.getElementById("ecra").innerHTML=x.join("");
  if (empty===true){
     document.getElementById("ecra").innerHTML="Type Something...";
